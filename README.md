@@ -9,6 +9,7 @@
 
 ---
 <img src="https://github.com/DanielECN/Modulo-3-Fundamentos-de-Bases-de-Datos-Relacionales/assets/94139814/d25154fe-afd3-4cc1-8925-ebbff9bd3cb3"  alt="SS"/>
+
 ---
 <h4 align="center">Primera vista de inicio, el splash art con su respectivo codigo </h4>
 <img src="https://github.com/DanielECN/Modulo-3-Fundamentos-de-Bases-de-Datos-Relacionales/assets/94139814/debcd6c6-aa3d-45c7-b760-10308d90e9ea"  alt="SS"/>
@@ -17,6 +18,8 @@
 <h4 align="center">Segunda vista, login con parte del codigo realizado </h4>
 
 <img src="https://github.com/DanielECN/Modulo-3-Fundamentos-de-Bases-de-Datos-Relacionales/assets/94139814/12515255-40bf-4ede-9035-ab0d3e5b271f"  alt="SS"/>
+
+---
 
 
 
