@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/login_page_background"/>
+
+    <TextView
+        android:id="@+id/tlt_login_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logea y empieza a transferir!"
+        android:layout_marginTop="80dp"
+        android:layout_marginHorizontal="30dp"
+        android:fontFamily="@font/jua"
+        android:textSize="35dp"/>
+
+    <TextView
+        android:id="@+id/txt_email_login_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tlt_login_page"
+        android:text="Email"
+        android:layout_marginTop="80dp"
+        android:layout_marginHorizontal="30dp"
+        android:fontFamily="@font/jua"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tlt_login_page"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="98dp"
+        android:background="@drawable/btn_white"
+        android:fontFamily="@font/jua"
+        android:inputType="textEmailAddress"
+        android:paddingStart="14sp"
+        android:paddingEnd="197sp"
+        android:text="Ingresar tu email"
+        android:textColor="#B5B5B5"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/txt_pass_login_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTextEmailAddress"
+        android:text="Contraseña"
+        android:layout_marginTop="24dp"
+        android:layout_marginHorizontal="30dp"
+        android:fontFamily="@font/jua"
+        android:textSize="14sp"/>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_pass_login_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_pass_login_page"
+        app:endIconMode="password_toggle">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn_white"
+            android:fontFamily="@font/jua"
+            android:inputType="textVisiblePassword"
+            android:paddingStart="14sp"
+            android:paddingEnd="197sp"
+            android:textSize="14sp"
+            android:text="Ingresar tu contraseña"
+            android:textColor="#B5B5B5"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_forgotpass_loginpage"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/input_pass_login_page"
+        android:fontFamily="@font/jua"
+        android:text="Olvidaste tu contraseña?"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textAlignment="textEnd"
+
+        />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_login_loginpage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="300dp"
+        android:layout_below="@+id/input_pass_login_page"
+        android:background="@drawable/btn_celeste"
+        android:textAllCaps="false"
+        android:fontFamily="@font/jua"
+        android:text="Login"
+        android:textColor="@color/white"/>
+
+
+    <Button
+        android:id="@+id/btn_create_account_loginpage"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/btn_login_loginpage"
+        android:fontFamily="@font/jua"
+        android:text="Crear una nueva cuenta"
+        android:textStyle="bold"
+        android:textSize="14sp"
+
+        />
+
+
+
+
+
+</RelativeLayout>
+

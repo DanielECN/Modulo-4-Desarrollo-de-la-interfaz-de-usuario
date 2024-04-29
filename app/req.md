@@ -17,38 +17,38 @@
 ✓  Letras del mismo color del fondo
 
         Login Page
-● Título
-● Texto “Email” y “Contraseña”
-● 2 Campos para que el usuario ingrese sus datos, ubicados como se muestra
+✓  Título
+✓  Texto “Email” y “Contraseña”
+✓  2 Campos para que el usuario ingrese sus datos, ubicados como se muestra
 en la imagen.
-○ 1 Campo texto
-○ 1 Campo contraseña - Con visualización
-● Texto “Olvidaste tu contraseña”
-● Fondo con imagen
-● Botón primario “Login”
-○ Fondo celeste
-○ Bordes redondeados
-● Botón secundario “Crear una nueva cuenta”
-○ Sin fondo
-○ Letras del mismo color del fondo
+✓  1 Campo texto
+✓  1 Campo contraseña - Con visualización
+✓  Texto “Olvidaste tu contraseña”
+✓  Fondo con imagen
+✓  Botón primario “Login”
+✓  Fondo celeste
+✓  Bordes redondeados
+✓  Botón secundario “Crear una nueva cuenta”
+✓  Sin fondo
+✓  Letras del mismo color del fondo
 
         Signup Page
-● Título
-● 5 campos de textos
-● 5 Campos para que el usuario ingrese sus datos, ubicados como se muestra
+✓ Título
+✓ 5 campos de textos
+✓ 5 Campos para que el usuario ingrese sus datos, ubicados como se muestra
 en la imagen.
-○ 3 Campo texto
-○ 2 Campo contraseña - Con visualización
-● Fondo con imagen
-● Botón primario “Login”
-○ Fondo celeste
-○ Bordes redondeados
-● Botón secundario “Crear una nueva cuenta”
-○ Sin fondo
-○ Letras del mismo color del fondo
+✓ 3 Campo texto
+✓ 2 Campo contraseña - Con visualización
+✓Fondo con imagen
+✓ Botón primario “Login”
+✓ Fondo celeste
+✓ Bordes redondeados
+✓ Botón secundario “Crear una nueva cuenta”
+✓ Sin fondo
+✓ Letras del mismo color del fondo
 
     Home Page 
-Fondo celeste (Imagen)
+✓ Fondo celeste (Imagen)
 ● 4 textos:
 ○ “Inicio”
 ○ Saludo al usuario

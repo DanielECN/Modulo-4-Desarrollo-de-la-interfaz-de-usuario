@@ -4,5 +4,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="alkebackground">#63B8FC</color>
     <color name="blue">#1A87DD</color>
+    <color name="grey">#939393</color>
 
 </resources>

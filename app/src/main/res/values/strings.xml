@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Alkewallet</string>
+    <string name="registrarse_y_empezar_a_transferir">Registrarse y empezar a transferir</string>
+    <string name="nombre_signuppage">Nombre</string>
+    <string name="ingresar_nombre_signuppage">Ingresar nombre</string>
+    <string name="apellido_signuppage">Apellido</string>
+    <string name="ingresar_apellido_signuppage">Ingresar apellido</string>
+    <string name="email_signuppage">Email</string>
+    <string name="ingresar_email_signuppage">Ingresar email</string>
+    <string name="contrase_a_signuppage">Contraseña</string>
+    <string name="ingresar_tu_contrasenia_signuppage">Ingresar tu contraseña</string>
+    <string name="title_reingresar_contrasenia_signuppage">Reingresar Contraseña</string>
+    <string name="reingresar_contrase_a_signuppage">Reingresar contraseña</string>
+    <string name="txt_inicio_homepage">Inicio</string>
 </resources>
