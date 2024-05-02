@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo"
@@ -12,7 +13,8 @@
         android:layout_height = "137dp"
         android:src="@drawable/logo"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="203dp"/>
+        android:layout_marginTop="203dp"
+        tools:ignore="ContentDescription" />
 
     <TextView
         android:id="@+id/textView"
@@ -20,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="124dp"
         android:fontFamily="@font/jua"
-        android:text="El lugar mas seguro para tu dinero"
+        android:text="@string/el_lugar_mas_seguro_para_tu_dinero_loginsignuppage"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="16sp"
@@ -37,7 +39,7 @@
        android:background="@drawable/btn_celeste"
         android:textAllCaps="false"
         android:fontFamily="@font/jua"
-        android:text="Crear cuenta nueva"
+        android:text="@string/crear_cuenta_nueva_loginsignuppage"
         android:textColor="@color/white"/>
 
 
@@ -50,7 +52,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:fontFamily="@font/jua"
-        android:text="Ya tiene cuenta ?"
+        android:text="@string/ya_tiene_cuenta_loginsignuppage"
         android:textStyle="bold"
         android:textSize="14sp"
         />

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -8,7 +9,8 @@
         android:id="@+id/fondo_homepage"
         android:layout_width="match_parent"
         android:layout_height="262dp"
-        android:background="@drawable/background_homepage" />
+        android:background="@drawable/background_homepage"
+        tools:ignore="ContentDescription" />
 
     <TextView
         android:id="@+id/txt_inicio_homepage"
@@ -63,7 +65,8 @@
         android:background="@drawable/notificacion"
         android:layout_toEndOf="@+id/dinero_homepage"
         android:layout_marginTop="204dp"
-        android:layout_marginStart="170dp"/>
+        android:layout_marginStart="170dp"
+        tools:ignore="ContentDescription" />
 
 
 
@@ -155,13 +158,14 @@
         android:layout_marginTop="41dp"
         android:layout_marginStart="40dp"
         android:background="@drawable/circulo_blanco"
-        android:layout_below="@+id/txt_ultimas_transacciones_homepage"/>
+        android:layout_below="@+id/txt_ultimas_transacciones_homepage"
+        tools:ignore="ContentDescription"/>
 
     <TextView
         android:id="@+id/nombre_usuario1_homepage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Valentina Lopez"
+        android:text="@string/valentina_lopez_homepage"
         android:fontFamily="@font/jua"
         android:textColor="@color/black"
         android:textSize="14sp"
@@ -178,7 +182,7 @@
         android:layout_below="@+id/nombre_usuario1_homepage"
         android:layout_toEndOf="@+id/usuario1_homepage"
         android:fontFamily="@font/jua"
-        android:text="Sep 16, 09:30 AM"
+        android:text="@string/sep_16_09_30_am_homepage"
         android:textColor="#80000000"
         android:textSize="12sp" />
 
@@ -190,7 +194,7 @@
         android:layout_marginTop="423dp"
         android:layout_marginEnd="15dp"
         android:fontFamily="@font/jua"
-        android:text="-$20.00"
+        android:text="@string/_20_00_homepage"
         android:textColor="@color/black"
         android:textSize="16sp" />
 
@@ -217,7 +221,8 @@
         android:layout_marginTop="41dp"
         android:layout_marginStart="40dp"
         android:background="@drawable/circulo_blanco"
-        android:layout_below="@+id/usuario1_homepage"/>
+        android:layout_below="@+id/usuario1_homepage"
+        tools:ignore="ContentDescription"/>
 
     <TextView
         android:id="@+id/nombre_usuario2_homepage"
@@ -228,7 +233,7 @@
         android:layout_marginTop="16dp"
         android:layout_toEndOf="@+id/usuario1_homepage"
         android:fontFamily="@font/jua"
-        android:text="Sebastian Martinez"
+        android:text="@string/sebastian_martinez_homepage"
         android:textColor="@color/black"
         android:textSize="14sp" />
 
@@ -241,7 +246,7 @@
         android:layout_below="@+id/nombre_usuario2_homepage"
         android:layout_toEndOf="@+id/usuario1_homepage"
         android:fontFamily="@font/jua"
-        android:text="Sep 11, 03:45 PM"
+        android:text="@string/sep_11_03_45_pm_homepage"
         android:textColor="#80000000"
         android:textSize="12sp" />
 
@@ -254,7 +259,7 @@
         android:layout_marginEnd="15dp"
         android:layout_below="@+id/usuario1_homepage"
         android:fontFamily="@font/jua"
-        android:text="+$15.50"
+        android:text="@string/_15_50_homepage"
         android:textColor="@color/black"
         android:textSize="16sp" />
 
@@ -281,7 +286,8 @@
         android:layout_marginTop="41dp"
         android:layout_marginStart="40dp"
         android:background="@drawable/circulo_blanco"
-        android:layout_below="@+id/usuario2_homepage"/>
+        android:layout_below="@+id/usuario2_homepage"
+        tools:ignore="ContentDescription"/>
 
     <TextView
         android:id="@+id/nombre_usuario3_homepage"
@@ -292,7 +298,7 @@
         android:layout_marginTop="16dp"
         android:layout_toEndOf="@+id/usuario3_homepage"
         android:fontFamily="@font/jua"
-        android:text="Mathias Gonzales"
+        android:text="@string/mathias_gonzales_homepage"
         android:textColor="@color/black"
         android:textSize="14sp" />
 
@@ -305,7 +311,7 @@
         android:layout_below="@+id/nombre_usuario3_homepage"
         android:layout_toEndOf="@+id/usuario1_homepage"
         android:fontFamily="@font/jua"
-        android:text="Sep 8, 01:13 AM"
+        android:text="@string/sep_8_01_13_am_homepage"
         android:textColor="#80000000"
         android:textSize="12sp" />
 
@@ -318,7 +324,7 @@
         android:layout_marginEnd="15dp"
         android:layout_below="@+id/usuario2_homepage"
         android:fontFamily="@font/jua"
-        android:text="+$50.50"
+        android:text="@string/_50_50_homepage"
         android:textColor="@color/black"
         android:textSize="16sp" />
 
@@ -336,7 +342,7 @@
         android:src="@drawable/avatar_4"
         app:shapeAppearanceOverlay="@style/RoundedImageView"
         android:layout_below="@+id/usuario3_homepage"
-
+        tools:ignore="ContentDescription"
         />
 
     <ImageView
@@ -346,7 +352,8 @@
         android:layout_marginTop="41dp"
         android:layout_marginStart="40dp"
         android:background="@drawable/circulo_blanco"
-        android:layout_below="@+id/usuario3_homepage"/>
+        android:layout_below="@+id/usuario3_homepage"
+        tools:ignore="ContentDescription"/>
 
     <TextView
         android:id="@+id/nombre_usuario4_homepage"
@@ -357,7 +364,7 @@
         android:layout_marginTop="16dp"
         android:layout_toEndOf="@+id/usuario4_homepage"
         android:fontFamily="@font/jua"
-        android:text="Gabriel Morales"
+        android:text="@string/gabriel_morales_homepage"
         android:textColor="@color/black"
         android:textSize="14sp" />
 
@@ -370,7 +377,7 @@
         android:layout_below="@+id/nombre_usuario4_homepage"
         android:layout_toEndOf="@+id/usuario1_homepage"
         android:fontFamily="@font/jua"
-        android:text="Sep 1, 03:33 AM"
+        android:text="@string/sep_1_03_33_am_homepage"
         android:textColor="#80000000"
         android:textSize="12sp" />
 
@@ -383,7 +390,7 @@
         android:layout_marginEnd="15dp"
         android:layout_below="@+id/usuario3_homepage"
         android:fontFamily="@font/jua"
-        android:text="-$66.50"
+        android:text="@string/_66_50_homepage"
         android:textColor="@color/black"
         android:textSize="16sp" />
 
@@ -410,7 +417,8 @@
         android:layout_marginTop="41dp"
         android:layout_marginStart="40dp"
         android:background="@drawable/circulo_blanco"
-        android:layout_below="@+id/usuario4_homepage"/>
+        android:layout_below="@+id/usuario4_homepage"
+        tools:ignore="ContentDescription"/>
 
     <TextView
         android:id="@+id/nombre_usuario5_homepage"
@@ -421,7 +429,7 @@
         android:layout_marginTop="16dp"
         android:layout_toEndOf="@+id/usuario5_homepage"
         android:fontFamily="@font/jua"
-        android:text="Lucia Fernandez"
+        android:text="@string/lucia_fernandez_homepage"
         android:textColor="@color/black"
         android:textSize="14sp" />
 
@@ -434,7 +442,7 @@
         android:layout_below="@+id/nombre_usuario5_homepage"
         android:layout_toEndOf="@+id/usuario1_homepage"
         android:fontFamily="@font/jua"
-        android:text="Oct 29, 09:45 AM"
+        android:text="@string/oct_29_09_45_am_homepage"
         android:textColor="#80000000"
         android:textSize="12sp" />
 
@@ -447,7 +455,7 @@
         android:layout_marginEnd="15dp"
         android:layout_below="@+id/usuario4_homepage"
         android:fontFamily="@font/jua"
-        android:text="+$09.50"
+        android:text="@string/_09_50_homepage"
         android:textColor="@color/black"
         android:textSize="16sp" />
 
