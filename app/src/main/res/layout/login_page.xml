@@ -114,13 +114,14 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="200dp"
         android:layout_below="@+id/input_pass_login_page"
         android:background="@drawable/btn_celeste"
         android:textAllCaps="false"
         android:fontFamily="@font/jua"
         android:text="@string/login"
-        android:textColor="@color/white"/>
+        android:textColor="@color/white"
+        />
 
 
     <Button
