@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <ImageView
+        android:id="@+id/fondo_homepage"
         android:layout_width="match_parent"
         android:layout_height="262dp"
         android:background="@drawable/background_homepage" />
@@ -16,7 +16,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginTop="50dp"
-        android:layout_marginEnd="200dp"
         android:fontFamily="@font/jua"
         android:text="@string/txt_inicio_homepage"
         android:textColor="@color/white"
@@ -30,7 +29,7 @@
         android:layout_marginTop="37dp"
         android:layout_below="@+id/txt_inicio_homepage"
         android:fontFamily="@font/jua"
-        android:text="Hola, Usuario"
+        android:text="@string/hola_usuario"
         android:textColor="#80FFFFFF"
         android:textSize="16sp" />
 
@@ -39,24 +38,32 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="18dp"
         android:layout_below="@+id/saludo_usuario_homepage"
         android:fontFamily="@font/jua"
-        android:text="Balance Total"
+        android:text="@string/balance_total"
         android:textColor="@color/white"
         android:textSize="20sp" />
 
     <TextView
         android:id="@+id/dinero_homepage"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="8dp"
-        android:layout_below="@+id/balance_total_homepage"
+        android:layout_marginTop="190dp"
+
         android:fontFamily="@font/jua"
-        android:text="$124,57"
+        android:text="@string/_124_57"
         android:textColor="@color/white"
         android:textSize="40sp" />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="26dp"
+        android:background="@drawable/notificacion"
+        android:layout_toEndOf="@+id/dinero_homepage"
+        android:layout_marginTop="204dp"
+        android:layout_marginStart="170dp"/>
 
 
 
@@ -64,14 +71,395 @@
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/profileImage"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:layout_marginTop="48dp"
-        android:layout_marginEnd="30dp"
-
+        android:layout_marginStart="265dp"
         android:src="@drawable/profile"
+        app:shapeAppearanceOverlay="@style/RoundedImageView"
         android:layout_toEndOf="@+id/txt_inicio_homepage"
          />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_verde_loginpage"
+        android:layout_width="180dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="15dp"
+        android:layout_below="@+id/fondo_homepage"
+        android:background="@drawable/btn_verde"
+        android:textAllCaps="false"
+        android:fontFamily="@font/jua"
+        android:text="@string/enviar_dinero"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:drawableStart="@drawable/ic_btn_verde"
+        android:paddingStart="30dp"
+        android:paddingEnd="40dp"
+        />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_celeste_loginpage"
+        android:layout_width="180dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/fondo_homepage"
+        android:layout_toEndOf="@+id/btn_verde_loginpage"
+        android:background="@drawable/btn_celeste"
+        android:textAllCaps="false"
+        android:fontFamily="@font/jua"
+        android:text="@string/ingresar_dinero"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:drawableStart="@drawable/ic_btn_celeste"
+        android:paddingStart="30dp"
+        android:paddingEnd="20dp"
+        />
+
+
+    <TextView
+        android:id="@+id/txt_ultimas_transacciones_homepage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/btn_verde_loginpage"
+        android:fontFamily="@font/jua"
+        android:text="@string/ultimas_transacciones"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+
+<!--  Usuario 1  -->
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/usuario1_homepage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="15dp"
+        android:src="@drawable/avatar_1"
+        app:shapeAppearanceOverlay="@style/RoundedImageView"
+        android:layout_below="@+id/txt_ultimas_transacciones_homepage"
+
+        />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_btn_enviar"
+        android:layout_marginTop="41dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/circulo_blanco"
+        android:layout_below="@+id/txt_ultimas_transacciones_homepage"/>
+
+    <TextView
+        android:id="@+id/nombre_usuario1_homepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valentina Lopez"
+        android:fontFamily="@font/jua"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_toEndOf="@+id/usuario1_homepage"
+        android:layout_marginTop="415dp"
+        android:layout_marginStart="17dp"/>
+
+    <TextView
+        android:id="@+id/usuario1_hora_transaccion_homepage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/nombre_usuario1_homepage"
+        android:layout_toEndOf="@+id/usuario1_homepage"
+        android:fontFamily="@font/jua"
+        android:text="Sep 16, 09:30 AM"
+        android:textColor="#80000000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/usuario1_dinero_transaccion_homepage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="303dp"
+        android:layout_marginTop="423dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/jua"
+        android:text="-$20.00"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <!--  FIN Usuario 1  -->
+
+    <!--  Usuario 2  -->
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/usuario2_homepage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="15dp"
+        android:src="@drawable/avatar_2"
+        app:shapeAppearanceOverlay="@style/RoundedImageView"
+        android:layout_below="@+id/usuario1_homepage"
+
+        />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_btn_recibir"
+        android:layout_marginTop="41dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/circulo_blanco"
+        android:layout_below="@+id/usuario1_homepage"/>
+
+    <TextView
+        android:id="@+id/nombre_usuario2_homepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usuario1_homepage"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@+id/usuario1_homepage"
+        android:fontFamily="@font/jua"
+        android:text="Sebastian Martinez"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/usuario2_hora_transaccion_homepage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/nombre_usuario2_homepage"
+        android:layout_toEndOf="@+id/usuario1_homepage"
+        android:fontFamily="@font/jua"
+        android:text="Sep 11, 03:45 PM"
+        android:textColor="#80000000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/usuario2_dinero_transaccion_homepage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="303dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="15dp"
+        android:layout_below="@+id/usuario1_homepage"
+        android:fontFamily="@font/jua"
+        android:text="+$15.50"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <!--  FIN Usuario 2  -->
+
+    <!--  Usuario 3  -->
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/usuario3_homepage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="15dp"
+        android:src="@drawable/avatar_3"
+        app:shapeAppearanceOverlay="@style/RoundedImageView"
+        android:layout_below="@+id/usuario2_homepage"
+
+        />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_btn_recibir"
+        android:layout_marginTop="41dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/circulo_blanco"
+        android:layout_below="@+id/usuario2_homepage"/>
+
+    <TextView
+        android:id="@+id/nombre_usuario3_homepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usuario2_homepage"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@+id/usuario3_homepage"
+        android:fontFamily="@font/jua"
+        android:text="Mathias Gonzales"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/usuario3_hora_transaccion_homepage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/nombre_usuario3_homepage"
+        android:layout_toEndOf="@+id/usuario1_homepage"
+        android:fontFamily="@font/jua"
+        android:text="Sep 8, 01:13 AM"
+        android:textColor="#80000000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/usuario3_dinero_transaccion_homepage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="303dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="15dp"
+        android:layout_below="@+id/usuario2_homepage"
+        android:fontFamily="@font/jua"
+        android:text="+$50.50"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <!--  FIN Usuario 3  -->
+
+
+    <!--  Usuario 4  -->
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/usuario4_homepage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="15dp"
+        android:src="@drawable/avatar_4"
+        app:shapeAppearanceOverlay="@style/RoundedImageView"
+        android:layout_below="@+id/usuario3_homepage"
+
+        />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_btn_enviar"
+        android:layout_marginTop="41dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/circulo_blanco"
+        android:layout_below="@+id/usuario3_homepage"/>
+
+    <TextView
+        android:id="@+id/nombre_usuario4_homepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usuario3_homepage"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@+id/usuario4_homepage"
+        android:fontFamily="@font/jua"
+        android:text="Gabriel Morales"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/usuario4_hora_transaccion_homepage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/nombre_usuario4_homepage"
+        android:layout_toEndOf="@+id/usuario1_homepage"
+        android:fontFamily="@font/jua"
+        android:text="Sep 1, 03:33 AM"
+        android:textColor="#80000000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/usuario4_dinero_transaccion_homepage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="303dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="15dp"
+        android:layout_below="@+id/usuario3_homepage"
+        android:fontFamily="@font/jua"
+        android:text="-$66.50"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <!--  FIN Usuario 4  -->
+
+    <!--  Usuario 5  -->
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/usuario5_homepage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="15dp"
+        android:src="@drawable/avatar_5"
+        app:shapeAppearanceOverlay="@style/RoundedImageView"
+        android:layout_below="@+id/usuario4_homepage"
+
+        />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_btn_recibir"
+        android:layout_marginTop="41dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/circulo_blanco"
+        android:layout_below="@+id/usuario4_homepage"/>
+
+    <TextView
+        android:id="@+id/nombre_usuario5_homepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usuario4_homepage"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@+id/usuario5_homepage"
+        android:fontFamily="@font/jua"
+        android:text="Lucia Fernandez"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/usuario5_hora_transaccion_homepage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/nombre_usuario5_homepage"
+        android:layout_toEndOf="@+id/usuario1_homepage"
+        android:fontFamily="@font/jua"
+        android:text="Oct 29, 09:45 AM"
+        android:textColor="#80000000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/usuario5_dinero_transaccion_homepage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="303dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="15dp"
+        android:layout_below="@+id/usuario4_homepage"
+        android:fontFamily="@font/jua"
+        android:text="+$09.50"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <!--  FIN Usuario 4  -->
+
+
+
+
+
+
+
+
 
 
 </RelativeLayout>

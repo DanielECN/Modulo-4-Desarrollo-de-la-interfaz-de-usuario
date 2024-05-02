@@ -203,7 +203,7 @@
         android:layout_marginRight="30dp"
         android:layout_marginTop="59dp"
         android:layout_below="@+id/reinput_pass_login_page"
-        android:background="@drawable/btn_celeste"
+        android:background="@drawable/btn_azul"
         android:textAllCaps="false"
         android:fontFamily="@font/jua"
         android:text="Crear Cuenta"

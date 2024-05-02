@@ -49,96 +49,99 @@ en la imagen.
 
     Home Page 
 ✓ Fondo celeste (Imagen)
-● 4 textos:
-○ “Inicio”
-○ Saludo al usuario
-○ Balance
-○ Cantidad de plata
-● Imagen de perfil
-● Campanita de notificación
+✓ 4 textos:
+✓ “Inicio”
+✓ Saludo al usuario
+✓ Balance
+✓ Cantidad de plata
+✓ Imagen de perfil
+✓ Campanita de notificación
 
 Sector blanco
-● Botón “Enviar dinero”
-○ Fondo verde
-○ Bordes redondeados
-● Botón “Ingresar dinero”
-○ Fondo celeste
-○ Bordes redondeados
-● Transacciones:
-○ Nombre del usuario
-○ Foto de perfil
-○ ïcono que diferencia el ingreso del envío
-○ Fecha
-○ Cantidad de plata, con su signo correspondiente
+✓ Botón “Enviar dinero”
+✓ Fondo verde
+✓ Bordes redondeados
+✓ Botón “Ingresar dinero”
+✓ Fondo celeste
+✓ Bordes redondeados
+✓ Transacciones:
+✓ Nombre del usuario
+✓ Foto de perfil
+✓ ïcono que diferencia el ingreso del envío
+✓ Fecha
+✓ Cantidad de plata, con su signo correspondiente
 
     Home Page - Empty Case 
 Fondo celeste (Imagen)
-● 4 textos:
-○ “Inicio”
-○ Saludo al usuario
-○ Balance
-○ Cantidad de plata
-● Imagen de perfil
-● Campanita de notificación
+✓ 4 textos:
+✓ “Inicio”
+✓ Saludo al usuario
+✓ Balance
+✓ Cantidad de plata
+✓ Imagen de perfil
+✓ Campanita de notificación
 
 Sector blanco
-● Botón “Enviar dinero”
-○ Fondo verde
-○ Bordes redondeados
-● Botón “Ingresar dinero”
-○ Fondo celeste
-○ Bordes redondeados
-● Transacciones:
-○ Imagen
-○ Texto
+✓ Botón “Enviar dinero”
+✓ Fondo verde
+✓ Bordes redondeados
+✓ Botón “Ingresar dinero”
+✓ Fondo celeste
+✓ Bordes redondeados
+✓ Transacciones:
+✓ Imagen
+✓ Texto
+
+    Request Money
+✓ïcono de flecha
+✓ Título “Enviar dinero”
+✓ Línea divisoria
+✓ Perfil del usuario
+✓ Inicial del usuario
+✓ Nombre
+✓ Correo
+✓ Texto:
+✓ Cantidad a ingresar
+✓ Nota de transferencia
+✓ Campos de texto para el usuario:
+✓ 1 campo número - Con borde berde
+✓ 1 campo texto
+✓ Botón “Ingresar dinero”:
+✓ Color celeste
+✓ Bordes redondeados
+
+    Send Money
+✓ ïcono de flecha
+✓ Título “Ingresar dinero”
+✓ Línea divisoria
+✓ Perfil del usuario
+✓ Foto
+✓ Nombre
+✓ Correo
+✓ Texto:
+✓ Cantidad a ingresar
+✓ Nota de transferencia
+✓ Campos de texto para el usuario:
+✓ 1 campo número - Con borde celeste
+✓ 1 campo texto
+✓ Botón “Ingresar dinero”:
+✓ Color celeste
+✓ Bordes redondeados
 
     Profile Page 
 Sector gris:
-● Texto:
-○ “Mi perfil”
-● Imagen de perfil con bordes redondeados
-● Círculo blanco
-● Nombre de usuario
-● ïcono de lápiz
+✓ Texto:
+✓ “Mi perfil”
+✓ Imagen de perfil con bordes redondeados
+✓ Círculo blanco
+✓ Nombre de usuario
+✓ ïcono de lápiz
 
 Sector Blanco:
-● 4 rectángulos grises
-○ ïcono
-○ Texto
-○ Flecha
+✓ 4 rectángulos grises
+✓ ïcono
+✓ Texto
+✓ Flecha
 
-    Send Money
-● ïcono de flecha
-● Título “Ingresar dinero”
-● Línea divisoria
-● Perfil del usuario
-○ Foto
-○ Nombre
-○ Correo
-● Texto:
-○ Cantidad a ingresar
-○ Nota de transferencia
-● Campos de texto para el usuario:
-○ 1 campo número - Con borde celeste
-○ 1 campo texto
-● Botón “Ingresar dinero”:
-○ Color celeste
-○ Bordes redondeados
 
-    Request Money
-● ïcono de flecha
-● Título “Enviar dinero”
-● Línea divisoria
-● Perfil del usuario
-○ Inicial del usuario
-○ Nombre
-○ Correo
-● Texto:
-○ Cantidad a ingresar
-○ Nota de transferencia
-● Campos de texto para el usuario:
-○ 1 campo número - Con borde berde
-○ 1 campo texto
-● Botón “Ingresar dinero”:
-○ Color celeste
-○ Bordes redondeados
+

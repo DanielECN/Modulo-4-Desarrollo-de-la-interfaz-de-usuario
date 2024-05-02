@@ -15,8 +15,6 @@ public class Login_Page extends AppCompatActivity {
 
     Button btn5;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,7 +26,6 @@ public class Login_Page extends AppCompatActivity {
             Intent intent = new Intent(Login_Page.this,Signup_Page.class);
             startActivity(intent);
         });
-
 
     }
 }

@@ -33,10 +33,8 @@ public class Splash extends AppCompatActivity {
             startActivity(intent);
         });
 
-
         MyToast.showLongToast(this, "BIENVENIDO, CLICK EN EL LOGO PARA INICIAR");
     }
-
 
 }
 

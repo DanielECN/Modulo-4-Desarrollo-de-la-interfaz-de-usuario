@@ -13,18 +13,18 @@
         android:id="@+id/tlt_login_page"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Logea y empieza a transferir!"
+        android:text="@string/logea_y_empieza_a_transferir"
         android:layout_marginTop="80dp"
         android:layout_marginHorizontal="30dp"
         android:fontFamily="@font/jua"
-        android:textSize="35dp"/>
+        android:textSize="35sp"/>
 
     <TextView
         android:id="@+id/txt_email_login_page"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tlt_login_page"
-        android:text="Email"
+        android:text="@string/email"
         android:layout_marginTop="80dp"
         android:layout_marginHorizontal="30dp"
         android:fontFamily="@font/jua"
@@ -42,7 +42,7 @@
         android:inputType="textEmailAddress"
         android:paddingStart="14sp"
         android:paddingEnd="197sp"
-        android:text="Ingresar tu email"
+        android:text="@string/ingresar_tu_email"
         android:textColor="#B5B5B5"
         android:textSize="14sp"
         />
@@ -52,7 +52,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editTextTextEmailAddress"
-        android:text="Contraseña"
+        android:text="@string/contrase_a"
         android:layout_marginTop="24dp"
         android:layout_marginHorizontal="30dp"
         android:fontFamily="@font/jua"
@@ -79,7 +79,7 @@
             android:paddingStart="14sp"
             android:paddingEnd="197sp"
             android:textSize="14sp"
-            android:text="Ingresar tu contraseña"
+            android:text="@string/ingresar_tu_contrase_a"
             android:textColor="#B5B5B5"
             />
     </com.google.android.material.textfield.TextInputLayout>
@@ -94,7 +94,7 @@
         android:layout_marginRight="30dp"
         android:layout_below="@+id/input_pass_login_page"
         android:fontFamily="@font/jua"
-        android:text="Olvidaste tu contraseña?"
+        android:text="@string/olvidaste_tu_contrase_a"
         android:textStyle="bold"
         android:textSize="14sp"
         android:textAlignment="textEnd"
@@ -114,7 +114,7 @@
         android:background="@drawable/btn_celeste"
         android:textAllCaps="false"
         android:fontFamily="@font/jua"
-        android:text="Login"
+        android:text="@string/login"
         android:textColor="@color/white"/>
 
 
@@ -128,7 +128,7 @@
         android:layout_marginRight="30dp"
         android:layout_below="@+id/btn_login_loginpage"
         android:fontFamily="@font/jua"
-        android:text="Crear una nueva cuenta"
+        android:text="@string/crear_una_nueva_cuenta"
         android:textStyle="bold"
         android:textSize="14sp"
 
