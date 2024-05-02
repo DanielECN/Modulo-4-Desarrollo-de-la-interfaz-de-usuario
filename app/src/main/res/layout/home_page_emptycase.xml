@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/fondo_homepage"
+        android:layout_width="match_parent"
+        android:layout_height="262dp"
+        android:background="@drawable/background_homepage"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/txt_inicio_homepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/jua"
+        android:text="@string/txt_inicio_homepage"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/saludo_usuario_homepage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/txt_inicio_homepage"
+        android:fontFamily="@font/jua"
+        android:text="@string/hola_usuario"
+        android:textColor="#80FFFFFF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/balance_total_homepage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/saludo_usuario_homepage"
+        android:fontFamily="@font/jua"
+        android:text="@string/balance_total"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/dinero_homepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="190dp"
+
+        android:fontFamily="@font/jua"
+        android:text="@string/_124_57"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+
+
+
+
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/profileImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginStart="265dp"
+        android:src="@drawable/profile"
+        app:shapeAppearanceOverlay="@style/RoundedImageView"
+        android:layout_toEndOf="@+id/txt_inicio_homepage"
+         />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_verde_loginpage"
+        android:layout_width="180dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="15dp"
+        android:layout_below="@+id/fondo_homepage"
+        android:background="@drawable/btn_verde"
+        android:textAllCaps="false"
+        android:fontFamily="@font/jua"
+        android:text="@string/enviar_dinero"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:drawableStart="@drawable/ic_btn_verde"
+        android:paddingStart="30dp"
+        android:paddingEnd="40dp"
+        />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_celeste_loginpage"
+        android:layout_width="180dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/fondo_homepage"
+        android:layout_toEndOf="@+id/btn_verde_loginpage"
+        android:background="@drawable/btn_celeste"
+        android:textAllCaps="false"
+        android:fontFamily="@font/jua"
+        android:text="@string/ingresar_dinero"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:drawableStart="@drawable/ic_btn_celeste"
+        android:paddingStart="30dp"
+        android:paddingEnd="20dp"
+        />
+
+
+    <TextView
+        android:id="@+id/txt_ultimas_transacciones_homepage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/btn_verde_loginpage"
+        android:fontFamily="@font/jua"
+        android:text="@string/ultimas_transacciones"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/empty_illustration_homepageempty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/empty_illustration"
+        android:layout_below="@+id/txt_ultimas_transacciones_homepage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="89dp"
+        tools:ignore="ContentDescription"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jua"
+        android:text="@string/no_hay_transacciones_registradas"
+        android:textColor="#80000000"
+        android:layout_below="@+id/empty_illustration_homepageempty"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
+
+
+

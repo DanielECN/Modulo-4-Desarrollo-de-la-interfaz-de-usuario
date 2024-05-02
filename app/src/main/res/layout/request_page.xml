@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_back"
+        android:layout_marginTop="59dp"
+        android:layout_marginStart="15dp"
+        tools:ignore="ContentDescription" />
+
+    <View
+        android:id="@+id/divider_requestpage"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#1A000000"
+        android:layout_below="@+id/tlt_login_page"
+        android:layout_marginTop="15dp"/>
+
+
+    <TextView
+        android:id="@+id/tlt_login_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ingresar_dinero_requestpage"
+        android:layout_marginTop="56dp"
+        android:layout_marginHorizontal="30dp"
+        android:fontFamily="@font/jua"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/avatar1_requestpage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/divider_requestpage"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/avatar_1"
+        app:shapeAppearanceOverlay="@style/RoundedImageView"/>
+
+    <TextView
+        android:id="@+id/txt_nombre_usuario1_requestpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider_requestpage"
+        android:text="@string/valentina_lopez_requestpage"
+        android:layout_marginTop="34dp"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/avatar1_requestpage"
+        android:fontFamily="@font/jua"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/saludo_usuario_homepage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/txt_nombre_usuario1_requestpage"
+        android:layout_toEndOf="@+id/avatar1_requestpage"
+        android:fontFamily="@font/jua"
+        android:text="@string/nombre_usuario666_gmail_com"
+        android:textColor="#66000000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txt_cantidad_aingresar_requestpage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/avatar1_requestpage"
+        android:fontFamily="@font/jua"
+        android:text="@string/cantidad_a_ingresar_requestpage"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txt_cantidad_aingresar_requestpage"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn_numero_celeste"
+        android:fontFamily="@font/jua"
+        android:inputType="number"
+        android:paddingStart="14sp"
+        android:paddingEnd="197sp"
+        android:text="@string/_20_00"
+        android:textColor="#1A87DD"
+        android:textSize="14sp"
+        android:ems="10"
+        tools:ignore="Autofill,LabelFor" />
+
+    <TextView
+        android:id="@+id/txt_notas_transferencia_requestpage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/editTextNumber2"
+        android:fontFamily="@font/jua"
+        android:text="@string/notas_de_transferencia_requestpage"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_celeste_loginpage"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_azul"
+        android:textAllCaps="false"
+        android:fontFamily="@font/jua"
+        android:text="@string/ingresar_dinero"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:drawableStart="@drawable/ic_btn_celeste"
+        android:paddingStart="120dp"
+        android:paddingEnd="120dp"
+        android:layout_margin="16dp"
+        />
+
+    <EditText
+        android:id="@+id/notas_requestpage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/txt_notas_transferencia_requestpage"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/btn_white"
+        android:fontFamily="@font/jua"
+        android:inputType="textAutoComplete"
+        android:textAlignment="textStart"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:paddingBottom="165dp"
+        android:text="@string/agregar_notas_de_transferencia_opcional"
+        android:textColor="#B5B5B5"
+        android:textSize="14sp"
+        tools:ignore="Autofill,LabelFor" />
+
+
+</RelativeLayout>
+
